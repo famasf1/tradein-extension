@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 2,
+    "name": "TEST",
+    "version": "1.0",
+  
+    "description": "Test Trade-in Printing",
+  
+    
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["js/main.js"]
+      }
+    ]
+  
+  }
+  
